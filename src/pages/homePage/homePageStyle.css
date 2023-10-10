@@ -1,0 +1,18 @@
+body{
+   
+    background-image: url('https://e0.pxfuel.com/wallpapers/73/76/desktop-wallpaper-heavy-metal-guitar-background-page-2-heavy-metal-concert.jpg');
+}
+
+.bg-image-CD{
+    background-image: url("https://i.gyazo.com/57ab75f00d4fbf9984edd81539b2f8c4.jpg");
+    
+    background-size: cover;
+}
+
+@media (min-width: 768px) { 
+    .bg-image-CD{
+        height: 56rem;
+        background-size: cover;
+        background-position: bottom;
+    }
+}

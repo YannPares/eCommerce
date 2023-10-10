@@ -1,0 +1,444 @@
+{
+    "products": [
+        {
+            "id": "ASs23e32",
+            "type": "merch",
+            "title": "Bring Me The Horizon",
+            "genre": "M",
+            "description": "Smoke Dinosaur ",
+            "price": 19.99,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695892650/554270a_esif4g.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695892713/554270d_c6vjwz.jpg"
+        },
+        {
+            "id": "ASas3q2",
+            "type": "merch",
+            "title": "Linkin Park",
+            "genre": "M",
+            "description": "",
+            "price": 19.99,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895464/493134a_tlto9z.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895456/493134d_ufonbr.jpg"
+        },
+        {
+            "id": "QSds324",
+            "type": "merch",
+            "title": "Gojira",
+            "genre": "M",
+            "description": "Flying Whales ",
+            "price": 19.99,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895447/444091a_jas98c.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895441/444091d_xs6k3m.jpg "
+        },
+        {
+            "id": "34f34f",
+            "type": "merch",
+            "title": "Opeth",
+            "genre": "M",
+            "description": " ",
+            "price": 19.99,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895433/490554a_piw8jk.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895427/490554d_xihs7w.jpg"
+        },
+        {
+            "id": "34f3f",
+            "type": "merch",
+            "title": "HIM",
+            "genre": "M",
+            "description": " ",
+            "price": 15.99,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895422/556087a_m3moj1.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895415/556087d_xp9hoj.jpg"
+        },
+        {
+            "id": "ferferf",
+            "type": "merch",
+            "title": "Slipknot",
+            "genre": "F",
+            "description": " ",
+            "price": 19.99,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895409/506434a_wioiwm.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895402/506434d_psnv8g.jpg"
+        },
+        {
+            "id": "34d34d",
+            "type": "merch",
+            "title": "Korn",
+            "genre": "M",
+            "description": "Red and green logo",
+            "price": 19.99,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895396/525511a_a1ymy0.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895390/525511d_z4o3lr.jpg"
+        },
+        {
+            "id": "34d4d",
+            "type": "merch",
+            "title": "Amon Amarth",
+            "genre": "M",
+            "description": " ",
+            "price": 19.99,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895383/514568a_tlz6b8.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895377/514568d_bwgoae.jpg"
+        },
+        {
+            "id": "34d34",
+            "type": "merch",
+            "title": "Korn",
+            "genre": "M",
+            "description": " ",
+            "price": 19.99,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895366/341896a-emp_g6fuji.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695895360/341896d-emp_dyquli.jpg"
+        },
+        {
+            "id": "34d34",
+            "type": "merch",
+            "title": "Electric Cowboy",
+            "genre": "M",
+            "description": " ",
+            "price": 89.30,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695897299/546614a_mzjo30.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695897331/546614a3_lkvjnl.jpg"
+        },
+        {
+            "id": "wd3wd3",
+            "type": "extra",
+            "title": " Double skull",
+            "genre": "unisex",
+            "description": " ",
+            "price": 19.99,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695899039/555729a_d9iefm.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695899045/555729d_w22jsn.jpg"
+        },
+        {
+            "id": "awdadweer",
+            "type": "extra",
+            "title": "Korn bag",
+            "genre": "M",
+            "description": "Issues album",
+            "price": 28.00,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695898770/521383a2_utafgu.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695898775/521383d2_vnjnkc.jpg "
+        },
+        {
+            "id": "asdadw4",
+            "type": "extra",
+            "title": "Cartera Slipknot",
+            "genre": "unisex",
+            "description": "we are not your kind",
+            "price": 23.99,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695897840/496548a_rgsait.jpg",
+            "img2": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1695897815/496548d_g5kry1.jpg"
+        },
+        {
+            "id": "dfsdf35tg43",
+            "type": "vinyl",
+            "title": "Test Vinyl Page",
+            "genre": "unisex",
+            "description": "unisex",
+            "price": 0,
+            "img1": "Loading img",
+            "img2": "Loading img"
+        },
+        {
+            "id": "4r34r",
+            "type": "merch",
+            "title": "cell",
+            "genre": "M",
+            "description": "Cellula t-shirt ",
+            "price": 300,
+            "img1": "https://res.cloudinary.com/dakmoaa8l/image/upload/v1696493015/front_hmd9lf.png",
+            "img2": ""
+        },
+        {
+            "id": "34d34d",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "34d34d",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        },
+        {
+            "id": "",
+            "type": "",
+            "title": "",
+            "genre": "",
+            "description": "",
+            "price": 0,
+            "img1": "",
+            "img2": ""
+        }
+    ]
+}

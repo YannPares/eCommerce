@@ -1,12 +1,12 @@
 import {RoutesPath} from './Routes/RoutesPath.routes'
-import {HomePage} from './pages/homePage'
-import './index.css'
+import { CartProvider } from './context/cart'
+
 function App() {
  return(
    <>
-    <HomePage />
+    {/* <CartProvider> */}
     <RoutesPath />
-    {/* // <Navbar /> */}
+    {/* </CartProvider> */}
    </>
  )
 }
