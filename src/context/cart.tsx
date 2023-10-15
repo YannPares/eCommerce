@@ -29,17 +29,17 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     // const [CartCheckbox, setCartCheckbox] = useState<string>("")
 
     const addToCart = (product: Product) => {
-        setCart([...cart, product])
-        // const productInCartIndex = cart.findIndex(item => item.id === product.id)
         
-        // if (productInCartIndex >= 0) {
-        //     const newCart = [...cart]
-        //     newCart[productInCartIndex].quantity += 1;
-        //     setCart(newCart)
-        // } else {
-        //     const newCart = [...cart, { ...product, quantity: 1 }]
-        //     setCart(newCart)
-        // }
+        const productInCartIndex = cart.findIndex(item => item.id === product.id)
+        
+        if (productInCartIndex >= 0) {
+            const newCart = [...cart]
+            newCart[productInCartIndex].quantity += 1;
+            setCart(newCart)
+        } else {
+            const newCart = [...cart, { ...product, quantity: 1 }]
+            setCart(newCart)
+        }
         
     };
     const removeFromCart = (product : Product) => {
