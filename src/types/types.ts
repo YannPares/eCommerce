@@ -1,4 +1,4 @@
-type Product = {
+export type Product = {
     id: string;
     type: string;
     title: string;
@@ -8,8 +8,10 @@ type Product = {
     img2: string;
   }
 
-type Cart = {
-  initCart: {};
-  id: number;
-
+  export type CartContextProps = {
+    product:Product;
+    addToCart: (product:Product) => void
+    setCart: Product[]
+    removeFromCart: (productId: number) => void
+    clearCart: () => void
 }

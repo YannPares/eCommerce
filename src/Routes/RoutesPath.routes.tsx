@@ -8,7 +8,8 @@ import { HomePage } from "../pages/homePage/homePage";
 import { Extras } from "../pages/extras/Extras";
 import { ProductPage } from "../pages/productPage/ProductPage"
 import Checkout from "../pages/checkout/Checkout";
-import LoginPage from "../pages/loginPage/LoginPage";
+import LoginPage from "../pages/loginPage/loginPage";
+
 
 // const aboutSection = document.getElementById('aboutSection');
 

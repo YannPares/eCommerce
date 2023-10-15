@@ -1,29 +1,19 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { toast, Toaster } from "react-hot-toast"
-import { useCart } from "../../hooks/useCart";
+// import { useCart } from "../../hooks/useCart";
+import useProducts from "../../hooks/useProducts";
 
 
 export const Merch = () => {
-  const [products, setProducts] = useState([])
-  // const { addToCart } = useCart()
-
-  const url = 'http://localhost:3000/products'
-  useEffect(() => {
-    const getProducts = async () => {
-      const response = await fetch(url);
-      const data = await response.json();
-      setProducts(data)
-    }
-    getProducts();
-  }, [])
-
+  const products = useProducts()
+  
   return (
     <>
-  
+    
       <div className="mt-28 w-full flex justify-between align-middle gap-8 flex-wrap">
-        {products && products.slice(0, 5).map(({ id, title, type, price, description, img1 }) => {
-
+        {products && products.map(({ id, title, type, price, description, img1 }) => {
+          
           const notify = () => toast(`${title} ${description}added to cart`);
           if (type === 'merch') {
             return (

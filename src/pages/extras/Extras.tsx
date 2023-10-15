@@ -1,36 +1,49 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
+import useProducts from "../../hooks/useProducts"
+import toast, { Toaster } from "react-hot-toast"
 
 
 export const Extras = () => {
-  const [products, setProducts] = useState([])
-  const url = 'http://localhost:3000/products'
-  useEffect(() => {
-    const getProducts = async () => {
-      const response = await fetch(url);
-      const data = await response.json();
-      setProducts(data)
-    }
-    getProducts();
-  }, [])
+  const products = useProducts()
 
   return (
 
     <>
       <div className="mt-28 w-full flex justify-between align-middle gap-8 flex-wrap">
         {products && products.map(({ id, title, price, description, img1, type }) => {
+          const notify = () => toast(`${title} ${description}added to cart`);
           if(type === 'extra'){
           return (
             <>
-                <Link className="p-28 m-3 border-white bg-slate-300" to={`${id}`} key={id}>
-                  <div>{title}</div>
-                <ul>
-                  <li>{price}</li>
-                  <li>{description}</li>
-                  <img src={img1} alt="loading image" />
-                </ul>
-                </Link>
-                <hr />
+                <div className="m-3 border-white bg-slate-300 text-center" >
+                  <ul className="bg-white">
+                    <Link to={`${id}`} key={id}>
+                      <li key={id}>
+                        <img
+                          src={img1}
+                          alt={title}
+                        />
+                        <div>
+                          <strong>{title}</strong> - {price}€
+                        </div>
+
+                      </li>
+                    </Link>
+                    <li>
+                      <div className="flex justify-center bg-slate-400 bg-transparent w-96">
+                      </div>
+                      <button className="bg-slate-500 rounded-xl p-2 my-4" onClick={
+                        // addToCart({id, title, img1}) && 
+                        notify}>Add to cart<Toaster /></button>
+                    </li>
+                    <li>
+
+                    </li>
+                  </ul>
+
+                </div>
+
             </>
           )}
         })}

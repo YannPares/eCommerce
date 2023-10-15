@@ -1,17 +1,9 @@
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
+import useProducts from "../../hooks/useProducts"
 
 export const Vinyls = () => {
-  const [products, setProducts] = useState([])
-  const url = 'http://localhost:3000/products'
-  useEffect(() => {
-    const getProducts = async () => {
-      const response = await fetch(url);
-      const data = await response.json();
-      setProducts(data)
-    }
-    getProducts();
-  }, [])
+  const products = useProducts()
 
   return (
 

@@ -5,15 +5,11 @@ import { Link } from 'react-router-dom'
 
 export const HomePage = () => {
   return (
-    
     <>
       <main className=' mt-28' id='main'>
-        <div className='rounded-xl mt-6 mb-2 grid grid-rows-1 grid-cols-2 bg-opacity-70 bg-black  '>
-          <section className='col-start-1 '>
-            <img className=' rounded-full opacity-70 pt-16 z-0' src="https://i.gyazo.com/014cd1d664dcb232912ccd33354ee284.png" alt="logo" />
-          </section>
-          <article className='py-24 pr-8 col-start-2 text-sm text-white'>
-            <h4 className=' text-5xl'>Welcome to Band Fan<BiSolidRegistered /></h4>
+        <div className='px-32 text-center rounded-xl mt-6 mb-2 grid grid-rows-1 bg-opacity-70 bg-black '>
+          <article className='py-24 pr-8 text-sm text-white'>
+            <h4 className=' text-5xl'>Welcome to Band Fan</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates asperiores repellat obcaecati ducimus ex architecto,
               porro expedita in magnam culpa nobis illo. Earum sit optio voluptatibus distinctio nihil architecto ad!</p>
           </article>
@@ -30,7 +26,7 @@ export const HomePage = () => {
         </button>
         </Link>
         <Link to="/vinyls"><button className='w-full rounded-xl mt-6 mb-2  bg-opacity-70 bg-black bg-image-CD '>
-          <article className=' p-48 text-sm text-white'>
+          <article className=' p-32 text-sm text-white'>
             <h4 className=' text-5xl'>Vinyls&CD</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates asperiores repellat obcaecati ducimus ex architecto,
               porro expedita in magnam culpa nobis illo. Earum sit optio voluptatibus distinctio nihil architecto ad!</p>
